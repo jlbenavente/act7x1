@@ -41,21 +41,22 @@ productos.each { |producto, valor | puts producto }
 
 #2
 
-productos = {'bebida' => 850, 'chocolate' => 1200, 'galletas' => 900, 'leche' => 750}
+
 productos['cereal'] = "2200"
 p productos
 
 #3
-productos = {'bebida' => 850, 'chocolate' => 1200, 'galletas' => 900, 'leche' => 750}
+
 productos['bebida'] = "2000"
 puts productos
 
+
 #4
-productos = {'bebida' => 850, 'chocolate' => 1200, 'galletas' => 900, 'leche' => 750}
+
 c = productos.to_a
 print c 
-
+print "\n"
 #5
-productos = {'bebida' => 850, 'chocolate' => 1200, 'galletas' => 900, 'leche' => 750}
+
 productos.delete('galletas')
 p productos

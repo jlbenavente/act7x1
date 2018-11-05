@@ -39,7 +39,7 @@ h.delete(:y)
 p h
 
 #4 Si el hash tiene una clave llamada z mostrar en pantalla "yeeah".
- if h.key?(:z) == true
+ if h.key?(:z) == true   #or h.include?
  	puts "yeeah"
  else
  	puts "oouhh"
@@ -57,6 +57,6 @@ p h
  #    ~~~rb
  #    x = {"hola": "a"}
 
- h = {"x": 1, "y":2, "z": 3}.invert
- p h
+ r = h.invert
+ p r
 
